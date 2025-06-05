@@ -1,0 +1,44 @@
+body{
+    background-color: var(--body);
+}
+.warehouse-table{
+    margin-top: 200px;
+    padding-inline: 50px;
+}
+.btn-tambah{
+    background-color: var(--navbar);
+    color: var(--body);
+    margin-bottom: 20px;
+    
+}
+.btn-tambah:hover{
+    background-color: var(--body);
+    color: var(--navbar);
+    border: 2px solid var(--navbar);
+    box-sizing: border-box;
+}
+.container-btn-tambah{
+    display: flex;
+    justify-content: flex-end;
+}
+.aksi button{
+    width: 30px;
+    height: 30px;
+}
+.edit{
+    background-color: yellow;
+}
+.hapus{
+    background-color: red;
+}
+.dropdown-toggle{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.head{
+    background-color: var(--navbar);
+    color: var(--body);
+}
+.btn-simpan{
+    background-color: var(--navbar);
+    color: var(--body);
+}

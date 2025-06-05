@@ -1,0 +1,21 @@
+
+
+body{
+    background-color: var(--body);
+}
+
+/* Navbar */
+.navbar .navbar-brand{
+    font-family: "Oswald", sans-serif;
+}
+
+.navbar .container .nav-item a{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar .container .nav-item a:hover{
+    color: var(--coffe);
+}
+
+
+

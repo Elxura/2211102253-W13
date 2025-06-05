@@ -1,0 +1,266 @@
+body {
+  font-family: poppins, sans-serif;
+  background-color: var(--body);
+  height: 2000px;
+}
+
+/* Navbar */
+.navbar .navbar-brand {
+  font-family: "Oswald", sans-serif;
+}
+
+.navbar .container .nav-item a {
+  font-size: 20px;
+}
+
+.navbar .container .nav-item a:hover {
+  color: var(--coffe);
+}
+
+/* Search */
+.search {
+  margin-top: 100px;
+  padding-inline: 100px;
+}
+
+
+
+/* Promotion */
+.promotion {
+  margin-top: 50px;
+
+  header {
+    margin-left: 150px;
+    margin-bottom: 30px;
+  }
+
+  .carousel {
+    width: 650px;
+    margin: auto;
+  }
+}
+
+
+/* Rekomendasi */
+.rekomendasi{
+  margin-top: 50px;
+}
+.rekomendasi .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.rekomendasi-item .nama-item{
+  margin-top: 100px;
+}
+
+h2 {
+  color: #3e2723;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.rekomendasi-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 65px;
+  justify-content: flex-start;
+}
+
+.rekomendasi-item {
+  flex: 0 0 calc(17% - 17px);
+  min-width: 100px;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.rekomendasi-item:hover {
+  transform: translateY(-5px);
+}
+
+.rekomendasi-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+    .rekomendasi-item {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    .menu-info {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .menu-info h3 {
+        margin: 0;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .price {
+        font-weight: bold;
+        color: #d35400;
+        margin: 0;
+    }
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .rekomendasi-item {
+    flex: 0 0 calc(25% - 15px);
+  }
+}
+
+@media (max-width: 768px) {
+  .rekomendasi-item {
+    flex: 0 0 calc(33.333% - 14px);
+  }
+}
+
+@media (max-width: 576px) {
+  .rekomendasi-item {
+    flex: 0 0 calc(50% - 10px);
+    
+  }
+}
+
+/* Makanan */
+.makanan{
+  margin-top: 50px;
+}
+.makanan .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(277, 277, 277, 0.3);
+  border-radius: 25px;
+  padding: 15px;
+}
+.minuman{
+  margin-top: 50px;
+}
+.minuman .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(277, 277, 277, 0.3);
+  border-radius: 25px;
+  padding: 15px;
+}
+
+/* All-menu */
+.all-menu a:hover {
+  background-color: white;
+}
+
+/* Recomendasi */
+.recomendasi {
+  margin-top: 1rem;
+}
+
+.recommend-title,
+.promotion-title,
+.minuman-title,
+.makanan-title {
+  color: var(--font);
+  font-size: 1.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.recommend-card,
+.minuman-card,
+.makanan-card {
+  color: var(--font);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.recommend-card img,
+.minuman-card img,
+.makanan-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.recommend-card {
+  margin-right: 20px;
+}
+
+.recommend-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.recommend-card h5,
+.makanan-dan-minuman-card h5 {
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.makanan-dan-minuman-title,
+.recommend-title {
+  font-size: 1.7rem;
+}
+
+.makanan-dan-minuman-title,
+.makanan-dan-minuman-card {
+  color: var(--font);
+
+}
+
+.makanan-dan-minuman-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+
+/* footer */
+
+
+/* Responsive */
+@media (max-width: 1400px) {
+
+  .makanan-dan-minuman-card img,
+  .recommend-card img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .makanan-dan-minuman-card img,
+  .recommend-card img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 440px) {
+
+  .makanan-dan-minuman-card img,
+  .recommend-card img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+  body {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .promotion {
+    width: 70%;
+  }
+}

@@ -1,0 +1,14 @@
+:root{
+    --coffe: rgb(200, 130, 46);
+    --font: rgb(227, 227, 227);
+    --font-secondary: rgb(62, 60, 60);
+    --font-opak: #ece0d1;
+    --body: #dbc1ac;
+    --coklat3: #967259;
+    --navbar: #634832;
+    --coklat5: #38220f;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
